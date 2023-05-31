@@ -16,7 +16,7 @@ body {
     padding: 5px;
 }
 
-.calculator from{
+.calculator form{
     display: grid;
     grid-template-columns: repeat(4, 65px);
     grid-auto-rows: 65px;
@@ -35,14 +35,14 @@ body {
 
 .calculator form .clear{
     background-color: #ed4848;
-    grid-column: span3
+    grid-column: span 3;
 }
 
-.calculator from .operator{
+.calculator form .operator{
     background-color: orange;
 }
 
-.calculator from .dot{
+.calculator form .dot{
     background-color: green;
 }
 
